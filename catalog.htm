@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Catalog of our latest products">
+    <title>Product Catalog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FAEFD6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #72522b;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .catalog-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: 20px;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 250px;
+            margin: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .product img {
+            width: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .product-info {
+            padding: 15px;
+        }
+        .product-info h2 {
+            font-size: 20px;
+            color: #333;
+            margin: 10px 0;
+        }
+        .product-info p {
+            font-size: 16px;
+            color: #666;
+        }
+        .product-info .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #e74c3c;
+            margin-top: 10px;
+        }
+        .product:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #FAEFD6;
+            color: black;
+            text-align: left;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Our Catalog</h1>
+    <p>Browse our latest collection of products!</p>
+</header>
+
+<div class="catalog-container">
+    <!-- Product 1 -->
+    <div class="product">
+        <img src="images/Hawaii.webp" alt="Product 1">
+        <div class="product-info">
+            <h2>Hawaii</h2>
+            <p>It’s awesome and you’ll love it!</p>
+            <p class="price">$29.99</p>
+        </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product">
+        <img src="images/latinaboricua.webp" alt="Product 2">
+        <div class="product-info">
+            <h2>Latina Boricua</h2>
+            <p>It is stylish and highly rated!</p>
+            <p class="price">$19.99</p>
+        </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product">
+        <img src="images/bonita" alt="Product 3">
+        <div class="product-info">
+            <h2>Bonita Mujer</h2>
+            <p>Great for daily use and highly recommended by our customers.</p>
+            <p class="price">$29.99</p>
+        </div>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product">
+        <img src="images/benice" alt="Product 4">
+        <div class="product-info">
+            <h2>Laughs in Spanish</h2>
+            <p>This product is perfect for anyone looking for quality and durability.</p>
+            <p class="price">$19.99</p>
+        </div>
+    </div>
+
+    <!-- Add more products as needed -->
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a href="INDEX.html">Back to Homepage</a>
+<footer>
+    <p>&copy; 2024 Product Catalog | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

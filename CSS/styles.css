@@ -1,0 +1,28 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color:#FAEFD6; 
+}
+
+.wide-image {
+    width: 1425px; 
+    height: auto; 
+    image-rendering:optimizeQuality; 
+}
+
+nav ul li {
+    float: right;
+    display: block;
+    list-style-type:none;
+    padding: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
